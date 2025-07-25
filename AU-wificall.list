@@ -7,4 +7,8 @@ DOMAIN-SUFFIX, ss.epdg.epc.mnc505.mcc505.pub.3gppnetwork.org
 DOMAIN-SUFFIX, ss.epdg.epc.geo.mnc505.mcc505.pub.3gppnetwork.org
 DOMAIN-SUFFIX, 3gppnetwork.org
 DOMAIN-SUFFIX, prd-sm-v4-003.gdsb.net
+IP-CIDR,198.18.31.227/32
+IP-CIDR,198.18.21.227/32
+IP-CIDR,198.18.21.226/32
+IP-CIDR,198.18.21.225/32
 IP-CIDR,198.18.0.0/15
