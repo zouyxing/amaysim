@@ -1,0 +1,32 @@
+# WiFi Calling / IMS Domains for Australian Carriers
+
+# === Amaysim (Optus MVNO) ===
+DOMAIN-SUFFIX,ims.mnc505.mcc505.3gppnetwork.org
+DOMAIN-SUFFIX,epdg.epc.mnc505.mcc505.pub.3gppnetwork.org
+DOMAIN-SUFFIX,ss.epdg.epc.mnc505.mcc505.pub.3gppnetwork.org
+
+# === Optus AU ===
+DOMAIN-SUFFIX,ims.mnc505.mcc505.3gppnetwork.org
+DOMAIN-SUFFIX,epdg.epc.mnc505.mcc505.pub.3gppnetwork.org
+DOMAIN-SUFFIX,ss.epdg.epc.mnc505.mcc505.pub.3gppnetwork.org
+
+# === Vodafone AU ===
+DOMAIN-SUFFIX,ims.mnc454.mcc505.3gppnetwork.org
+DOMAIN-SUFFIX,epdg.epc.mnc454.mcc505.pub.3gppnetwork.org
+DOMAIN-SUFFIX,ss.epdg.epc.mnc454.mcc505.pub.3gppnetwork.org
+
+# === Apple-specific VoWiFi DNS Probes ===
+DOMAIN-SUFFIX,gspe1-ssl.ls.apple.com
+
+# === Common IMS Keywords ===
+DOMAIN-KEYWORD,ims
+DOMAIN-KEYWORD,epdg
+
+# === Known VoWiFi IP Gateways (Optus/Amaysim tested) ===
+IP-CIDR,198.18.21.226/32
+IP-CIDR,198.18.21.227/32
+IP-CIDR,198.18.31.227/32
+
+# === Recommended IMS/VoWiFi CIDR Range ===
+# (Covers all 198.18.x.x test network addresses used by Optus for ePDG/IMS)
+IP-CIDR,198.18.0.0/15
