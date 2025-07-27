@@ -1,0 +1,19 @@
+# VOXI (Vodafone UK 子品牌)
+
+# ePDG / IMS / 网络服务节点
+DOMAIN-SUFFIX, epdg.epc.mnc015.mcc234.pub.3gppnetwork.org
+DOMAIN-SUFFIX, ss.epdg.epc.mnc015.mcc234.pub.3gppnetwork.org
+DOMAIN-SUFFIX, ss.epdg.epc.geo.mnc015.mcc234.pub.3gppnetwork.org
+DOMAIN-SUFFIX, ims.mnc015.mcc234.pub.3gppnetwork.org
+DOMAIN-SUFFIX, ims.vodafone.co.uk
+DOMAIN-SUFFIX, epc.mnc015.mcc234.pub.3gppnetwork.org
+
+# 网络功能相关域名
+DOMAIN-SUFFIX, entsrv-uk.vodafone.com
+DOMAIN-SUFFIX, vuk-gto.prod.ondemandconnectivity.com
+
+# IP段（Vodafone UK 使用）
+IP-CIDR, 88.82.0.0/19
+
+# 可选 - Apple 地区探测（如用于触发 eSIM 或地区限制）
+DOMAIN-SUFFIX, gspe1-ssl.ls.apple.com
