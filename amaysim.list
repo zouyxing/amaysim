@@ -4,11 +4,15 @@
 DOMAIN-SUFFIX,ims.mnc505.mcc505.3gppnetwork.org
 DOMAIN-SUFFIX,epdg.epc.mnc505.mcc505.pub.3gppnetwork.org
 DOMAIN-SUFFIX,ss.epdg.epc.mnc505.mcc505.pub.3gppnetwork.org
+IP-CIDR,101.203.128.0/17,PROXY
+IP-CIDR,27.32.0.0/11,PROXY
 
 # === Optus AU ===
 DOMAIN-SUFFIX,ims.mnc505.mcc505.3gppnetwork.org
 DOMAIN-SUFFIX,epdg.epc.mnc505.mcc505.pub.3gppnetwork.org
 DOMAIN-SUFFIX,ss.epdg.epc.mnc505.mcc505.pub.3gppnetwork.org
+IP-CIDR,101.203.128.0/17,PROXY
+IP-CIDR,27.32.0.0/11,PROXY
 
 # === Vodafone AU ===
 DOMAIN-SUFFIX,ims.mnc454.mcc505.3gppnetwork.org
@@ -30,3 +34,4 @@ IP-CIDR,198.18.31.227/32
 # === Recommended IMS/VoWiFi CIDR Range ===
 # (Covers all 198.18.x.x test network addresses used by Optus for ePDG/IMS)
 IP-CIDR,198.18.0.0/15
+
