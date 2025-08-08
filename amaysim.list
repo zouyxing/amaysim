@@ -1,23 +1,30 @@
 # WiFi Calling / IMS Domains for Australian Carriers
 
 # === Amaysim (Optus MVNO) ===
-DOMAIN-SUFFIX,ims.mnc505.mcc505.3gppnetwork.org
-DOMAIN-SUFFIX,epdg.epc.mnc505.mcc505.pub.3gppnetwork.org
-DOMAIN-SUFFIX,ss.epdg.epc.mnc505.mcc505.pub.3gppnetwork.org
+DOMAIN-SUFFIX,ims.mnc002.mcc505.3gppnetwork.org,VoWiFi
+DOMAIN-SUFFIX,epdg.epc.mnc002.mcc505.pub.3gppnetwork.org,VoWiFi
+DOMAIN-SUFFIX,ss.epdg.epc.mnc002.mcc505.pub.3gppnetwork.org,VoWiFi
+DOMAIN,pcscf.mnc002.mcc505.pub.3gppnetwork.org,VoWiFi
+DOMAIN,bsf.mnc002.mcc505.pub.3gppnetwork.org,VoWiFi
+DOMAIN,xcap.mnc002.mcc505.pub.3gppnetwork.org,VoWiFi
+DOMAIN,nai.epc.mnc002.mcc505.3gppnetwork.org,VoWiFi
+DOMAIN,conf-factory.ims.mnc002.mcc505.3gppnetwork.org,VoWiFi
+DOMAIN-SUFFIX,mnc002.mcc505.pub.3gppnetwork.org,VoWiFi
+DOMAIN-SUFFIX,mnc002.mcc505.3gppnetwork.org,VoWiFi
 IP-CIDR,101.203.128.0/17,PROXY
 IP-CIDR,27.32.0.0/11,PROXY
 
 # === Optus AU ===
-DOMAIN-SUFFIX,ims.mnc505.mcc505.3gppnetwork.org
-DOMAIN-SUFFIX,epdg.epc.mnc505.mcc505.pub.3gppnetwork.org
-DOMAIN-SUFFIX,ss.epdg.epc.mnc505.mcc505.pub.3gppnetwork.org
+DOMAIN-SUFFIX,ims.mnc002.mcc505.3gppnetwork.org,VoWiFi
+DOMAIN-SUFFIX,epdg.epc.mnc002.mcc505.pub.3gppnetwork.org,VoWiFi
+DOMAIN-SUFFIX,ss.epdg.epc.mnc002.mcc505.pub.3gppnetwork.org,VoWiFi
 IP-CIDR,101.203.128.0/17,PROXY
 IP-CIDR,27.32.0.0/11,PROXY
 
 # === Vodafone AU ===
-DOMAIN-SUFFIX,ims.mnc454.mcc505.3gppnetwork.org
-DOMAIN-SUFFIX,epdg.epc.mnc454.mcc505.pub.3gppnetwork.org
-DOMAIN-SUFFIX,ss.epdg.epc.mnc454.mcc505.pub.3gppnetwork.org
+DOMAIN-SUFFIX,ims.mnc454.mcc505.3gppnetwork.org,VoWiFi
+DOMAIN-SUFFIX,epdg.epc.mnc454.mcc505.pub.3gppnetwork.org,VoWiFi
+DOMAIN-SUFFIX,ss.epdg.epc.mnc454.mcc505.pub.3gppnetwork.org,VoWiFi
 
 # === Apple-specific VoWiFi DNS Probes ===
 DOMAIN-SUFFIX,gspe1-ssl.ls.apple.com
@@ -34,4 +41,5 @@ IP-CIDR,198.18.31.227/32
 # === Recommended IMS/VoWiFi CIDR Range ===
 # (Covers all 198.18.x.x test network addresses used by Optus for ePDG/IMS)
 IP-CIDR,198.18.0.0/15
+
 
